@@ -16,30 +16,29 @@
 
 ### Bank
 
-- 설명추가
+- Golang의 struct를 생성하고 get, set method를 만들어보았다.
+- method 호출할 때 생길 수 있는 에러를 어떻게 처리하는 지 알아보았다.
+- Golang에서 리스트나 오브젝트 등을 프린트하면 자동으로 Golang의 String method가 실행되어 보이는데 이를 덮어씌워서 커스텀화하는 방법을 알아보았다.
 
 ---
 
 ### Dictionary
 
-- 설명추가
+- Dictionary를 이용해 map을 다루는 방법을 알아봤다.
+- search, add, update, delete method를 만들어 기능을 추가하였다.
 
 ---
 
-### URL Checker
+### URL Checker & Go Routines
 
-- 설명추가
-
----
-
-### Go Routines
-
-- 설명추가
+- 각각 URL을 체크하여 결과값을 map에 저장하였다.
+- 기존 for구문이라면 URL을 순서대로 하나씩 체크해야하지만 goRoutine을 사용하면 URL 여러개를 동시에 체크하여 빠르게 작업할 수 있게 된다.
 
 ---
 
 ### Scrapper
 
-- 설명추가
+- goquery 라이브러리를 이용하여 특정 사이트의 필요한 정보를 가져와 csv파일로 저장한다. 나중에는 echo 라이브러리를 이용하여 웹서버를 열어 웹페이지에서 검색해서 필요한 정보를 수집한 뒤 csv파일로 다운받을 수 있게 하였다.
+- 처음에는 일반적인 방식으로 코딩하였으며, 나중에는 goRoutine 방식으로 코딩하였다. 처리해야 하는 데이터가 많으면 많을수록 확실히 goRoutine 방식으로 다루는 것이 빠르다는 것을 체감할 수 있었다.
 
 ---
